@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Teste de Form</title>
+  </head>
+  <body>
+    <div class="container">
+      <form id="formulario">
+        <h1 id="titulo">Um grande Form</h1>
+        <div class="entrada">
+          <label for="email">Email</label>
+          <input type="email" id="email" required />
+        </div>
+        <div class="entrada">
+          <label for="senha">Senha</label>
+          <input type="password" id="senha" required disabled/>
+        </div>
+        <button type="submit" id="butao" disabled>Enviar</button>
+      </form>
+
+      <div id="telinha" class="esconder">
+        <p id="espacoEmail"></p>
+        <p id="espacoSenha"></p>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
